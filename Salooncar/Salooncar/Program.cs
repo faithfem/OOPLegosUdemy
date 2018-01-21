@@ -11,8 +11,10 @@ namespace Salooncar
         static void Main(string[] args)
         {
             //in this class, instantiate car class
-            var car = new Car("Red", "Large", "Toyota");
-            //var car2 = new SaloonCar(4);
+            var car = new Car("Red", "Large", "Toyota"); //THIS INSTANTIATES THE PUBLIC CLASS Car 
+            var salooncar = new SaloonCar(4,"Blue"); //INSTANTIATES SaloonCar CLASS 
+            
+            
 
             Console.WriteLine("Car is " + car.color + " and is made by " + car.manufacturer);
             
@@ -22,7 +24,7 @@ namespace Salooncar
     public class Car
     {
         //create constructor
-        public Car(string _color, string _size, string _manufacturer) {
+        public Car(string _color, string _size, string _manufacturer) { //the first constructor is color, the second is size...etc
             this.color = _color;
             this.size = _size;
             this.manufacturer = _manufacturer;
@@ -33,15 +35,15 @@ namespace Salooncar
         
     }
     //create SaloonCar class    
-    /*public class SaloonCar: Car
+    public class SaloonCar: Car
     {
         //create constructor 
-        public SaloonCar(string _color, string)
+        public SaloonCar(int _numberOfSeats, string _color)
         {
-
+            this.numberOfSeats = _numberOfSeats;
         }
-   
+        public int numberOfSeats { get; set; }
 
-    }*/
+    }
 
 }
