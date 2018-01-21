@@ -1,0 +1,7 @@
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\obj\Debug\Salooncar.csprojResolveAssemblyReference.cache
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\obj\Debug\Salooncar.csproj.CoreCompileInputs.cache
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\bin\Debug\Salooncar.exe.config
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\bin\Debug\Salooncar.exe
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\bin\Debug\Salooncar.pdb
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\obj\Debug\Salooncar.exe
+C:\Coding\cSharp\Salooncar\Salooncar\Salooncar\obj\Debug\Salooncar.pdb
